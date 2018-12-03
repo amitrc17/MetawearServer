@@ -5,6 +5,7 @@
 1. Sqlalchemy - `pip install sqlalchemy`
 2. flask - `pip install flask`
 3. pymysql (only if using DB) - `pip install pymysql`
+4. MySql (only if using DB) - Get it [here](https://dev.mysql.com/downloads/mysql/)
 
 #### To Run
 
