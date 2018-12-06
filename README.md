@@ -42,3 +42,11 @@ This will start sharing your local host through ngrok tunnels.
 The shareable url should be visible in the terminal next to the
 `forwarding` text on the terminal output. It should look something like
 `https://5dbcb8e6.ngrok.io`. That is your shareable url.
+
+Finally, connect the pi to a screen and keyboard and login to it. Once in, cd into the
+folder `pymetawear/examples` and open `accelerometer.py` in it look for the variable `server_url`, change
+it to whatever you get from ngrok. This would also be a good time to configure the wi-fi credentials.
+
+After doing this, restart the pi and look out on the console wherever the server is running for messages indicating
+the number of samples received. The server console will also indicate when the pi loses connection to the metawear.
+There is a wait of 20 seconds for each connection attempt, it may take 1-2 connection attempts to start the initial connection.
